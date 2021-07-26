@@ -12,6 +12,10 @@ $(call inherit-product, vendor/xiaomi/pine/pine-vendor.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
