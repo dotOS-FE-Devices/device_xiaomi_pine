@@ -14,7 +14,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    GoogleCameraGo \
+    MiXplorer \
+    MiXArchive
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
