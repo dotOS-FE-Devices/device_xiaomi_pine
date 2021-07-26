@@ -11,14 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from pine device
 $(call inherit-product, device/xiaomi/pine/device.mk)
 
-# Inherit some dotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some dotOS Fan Edition stuff.
+$(call inherit-product, vendor/dotfe/config/common.mk)
 
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device Maintainer
-DEVICE_MAINTAINER := AOiSPdev
+DEVICE_MAINTAINER := Hsxzerotwo
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -27,7 +27,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := dot_pine
+PRODUCT_NAME := dotfe_pine
 PRODUCT_DEVICE := pine
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7A

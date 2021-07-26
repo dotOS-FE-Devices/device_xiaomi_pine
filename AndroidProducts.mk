@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_pine.mk
+    $(LOCAL_DIR)/dotfe_pine.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_pine-eng \
-    dot_pine-userdebug \
-    dot_pine-user
+    dotfe_pine-eng \
+    dotfe_pine-userdebug \
+    dotfe_pine-user
