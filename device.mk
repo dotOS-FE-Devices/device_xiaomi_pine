@@ -439,4 +439,8 @@ PRODUCT_PACKAGES += \
     XiaomiDoze
 
 # Dirac
+PRODUCT_PACKAGES += \
+    Dirac
+
+# Dirac
 $(call inherit-product, vendor/xiaomi/dirac/dirac.mk)
