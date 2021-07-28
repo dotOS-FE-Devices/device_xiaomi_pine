@@ -437,3 +437,6 @@ PRODUCT_BOOT_JARS += \
 # XiaomiDoze
 PRODUCT_PACKAGES += \
     XiaomiDoze
+
+# Dirac
+$(call inherit-product, vendor/xiaomi/dirac/dirac.mk)
